@@ -1,0 +1,13 @@
+/media/yudong/data/yuzhew/ros2_ws_6V2/src/crazyswarm2/crazyflie_examples/crazyflie_examples/six_v_two_hgat/continuous_membership.py:250: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  float(r_row.abs().max()) > 1e-3 or float(r_col.abs().max()) > 1e-3:
+PASS  C1 demand affects execution (candidate differs; gate separate)  a(d_hi0)=[0, 0, 0] a(d_hi1)=[1, 1, 1]
+PASS  C2 same member set everywhere  coalition_of(0)=[0, 1, 2]
+PASS  C3 lifecycle immediate fix (target deactivated)  reason=invalid_fixed assignment=[1, -1, 1, -1, -1, 1]
+PASS  C3 offline member immediate fix  reason=invalid_fixed before=[1, 0, 1, 1, 0, 0]
+PASS  C4 graph state advances exactly once per physical step  _step 0 -> 2
+PASS  C5 controller/runtime identical trajectory  
+PASS  C6 no tier leakage (demand unchanged)  dem_a=[3. 3.] dem_b=[3. 3.]
+PASS  C7 ID / empty-task legal configs  assign1=[-1, -1, -1, -1, -1, -1] assign2=[-1, -1, -1, -1, -1, -1]
+
+==== C-phase: 8 PASS / 0 FAIL ====

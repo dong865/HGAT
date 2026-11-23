@@ -1,0 +1,35 @@
+{
+  "pass_A": {
+    "loss": -0.2552015483379364,
+    "grad_relation_head": 0.0028069288505180433,
+    "grad_demand_head": 0.05437219784493505,
+    "grad_st_hgat": 1.211653533611333,
+    "grad_actor": 0.676943867303977,
+    "grad_critic1": 14.805843863707958
+  },
+  "pass_B": {
+    "loss": -0.2691459059715271,
+    "grad_relation_head": 0.0,
+    "grad_demand_head": 0.0,
+    "grad_st_hgat": 1.2165992472830847,
+    "grad_actor": 0.7059096255195416
+  },
+  "pass_C": {
+    "loss": -0.26437270641326904,
+    "grad_relation_head": 0.0,
+    "grad_demand_head": 0.0,
+    "grad_st_hgat": 0.0,
+    "grad_actor": 0.6483909999773441
+  },
+  "checks": {
+    "A_relation_nonzero": true,
+    "A_demand_nonzero": true,
+    "B_relation_zero": true,
+    "B_demand_zero": true,
+    "B_sthgat_retained": true,
+    "C_encoder_zero": true,
+    "C_actor_retained": true
+  },
+  "verdict": "PASS",
+  "note": "\u7eaf\u4ef7\u503c\u635f\u5931\u8fde\u901a\u6027\u68c0\u67e5\uff08\u968f\u673a\u521d\u59cb\u5316\u3001\u5355\u7247\u6bb5\uff09\uff1bSinkhorn \u5bf9 costs/demand \u7684\u6709\u9650\u5dee\u5206\u89c1 V2_ACCEPTANCE_TESTS.log \uff08B finite-diff \u4e24\u9879\uff09\u3002"
+}

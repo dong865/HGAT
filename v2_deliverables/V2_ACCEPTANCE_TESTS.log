@@ -1,0 +1,16 @@
+/media/yudong/data/yuzhew/ros2_ws_6V2/src/crazyswarm2/crazyflie_examples/crazyflie_examples/six_v_two_hgat/test_continuous_membership.py:240: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  ok = bool((d1 >= 0).all()) and float(d1[2]) == 0.0
+PASS  A1 cost direction  P=[[1.0, 0.0], [0.0, 1.0]]
+PASS  A2 OT conservation / edge cases  
+PASS  A3 global ID mapping  
+PASS  A4 resource competition (N<M)  assignment=[3, 2]
+PASS  A5 hard solver == brute force (320 cases)  
+PASS  A6 unified context consistency + permutation  
+PASS  A7 grad switch same forward  demand=[3.164, 3.005, 0.0]
+PASS  A7 demand head init/nonneg/mask  
+PASS  B finite-diff d(obj)/d(costs)  
+PASS  B finite-diff d(obj)/d(demand)  
+PASS  gate dwell/hysteresis/force/capture-hold  
+
+==== 11 PASS / 0 FAIL ====
